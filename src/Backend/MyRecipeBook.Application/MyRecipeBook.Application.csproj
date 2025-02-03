@@ -1,15 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../MyRecipeBook.Application/MyRecipeBook.Application.csproj" />
+    <ProjectReference Include="../MyRecipeBook.Communication/MyRecipeBook.Communication.csproj" />
     <ProjectReference Include="/src/Shared/MyRecipeBook.Communication/MyRecipeBook.Communication.csproj"/>
     <ProjectReference Include="/src/Shared/MyRecipeBook.Exceptions/MyRecipeBook.Exceptions.csproj" />
   </ItemGroup>
-
 </Project>
